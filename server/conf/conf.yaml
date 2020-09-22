@@ -1,0 +1,18 @@
+mysql:
+  host: "192.168.0.50"
+  port: "3306"
+  user: "wiliwili"
+  password: "12lwiliwilisA3"
+  dbname: "wiliwili"
+
+loglever: "debug"
+
+redis:
+  addr: "192.168.0.50:6379"
+  password: ""
+  dbname: ""
+
+session_secret: "youneedtoset"
+gin_mode: "debug"
+
+update_path: "static/upload/"
